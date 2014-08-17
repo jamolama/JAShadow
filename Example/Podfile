@@ -1,0 +1,7 @@
+
+target 'JAShadow', :exclusive => true do
+  pod "JAShadow", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
