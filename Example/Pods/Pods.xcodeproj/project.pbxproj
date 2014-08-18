@@ -72,7 +72,6 @@
 		92AF57D98BA3405C8D27692F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34862B78C840DD87AB68E3 /* EXPMatchers+beGreaterThanOrEqualTo.m */; };
 		942BED4C1D22450BBA9715BC /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = D11A6074007B4549885314E6 /* EXPMatchers+beFalsy.h */; };
 		959754593A044EF0BB2B773A /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7108D69B1F4B3C94768CD4 /* EXPMatchers.h */; };
-		960E4A1519A157AB00E40D9F /* UIView+JAShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 960E4A1419A157AB00E40D9F /* UIView+JAShadow.m */; };
 		96818210E5ED4B4F831ADD40 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 630FA1EDBD2742CAADFAA506 /* SPTSpec.h */; };
 		973CFC45536248D3905F8728 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2F6F60E3E465C8A8C9E0F /* EXPMatchers+beInstanceOf.m */; };
 		97F0A36326D34D8BBD4EFD08 /* SPTNestedReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 274D3F8E9AD14E91A9131C74 /* SPTNestedReporter.h */; };
@@ -220,8 +219,6 @@
 		8E449429B2BB48B983910DB2 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "src/matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		8E562AEE385244C6ABE73F51 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = src/EXPExpect.h; sourceTree = "<group>"; };
 		92066DD9EA1B40F4A2E920C9 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = src/SpectaTypes.h; sourceTree = "<group>"; };
-		960E4A1319A157AB00E40D9F /* UIView+JAShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JAShadow.h"; sourceTree = "<group>"; };
-		960E4A1419A157AB00E40D9F /* UIView+JAShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JAShadow.m"; sourceTree = "<group>"; };
 		96CD7773F7BC465F8323326F /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "src/matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		9BA62E36E0504785A696894E /* XCTestLog+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestLog+Specta.m"; path = "src/XCTestLog+Specta.m"; sourceTree = "<group>"; };
 		9CE156D29ED74830999ACFA7 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "src/matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
@@ -414,8 +411,6 @@
 			isa = PBXGroup;
 			children = (
 				16137A6880674700875DBC4B /* Support Files */,
-				960E4A1319A157AB00E40D9F /* UIView+JAShadow.h */,
-				960E4A1419A157AB00E40D9F /* UIView+JAShadow.m */,
 			);
 			name = JAShadow;
 			path = ../..;
@@ -772,7 +767,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A92FCC3EFB74BD6804068E0 /* Pods-JAShadow-dummy.m in Sources */,
-				960E4A1519A157AB00E40D9F /* UIView+JAShadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
